@@ -6,11 +6,11 @@
 
 ``` bash
 # install dependencies
-npm install
+npm / cnpm  install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
+如果端口被占的话，到config文件夹里面的index.js里去修改  port:8080    这个位置上修改
 # build for production with minification
 npm run build
 
